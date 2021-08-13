@@ -95,8 +95,6 @@ data_filter = data %>%
 
 locations = c("TF", "Mouth")
 
-#locations = c("Mouth", "Keyboard", "Phone", "Bathroom Floor", "Bathroom FLoor", "Exhaust Air", "Desk", "Next to TFS", "TF", "Nose")
-
 data_filter <- data_filter %>%
   #drop_na() %>%
   filter(SubjectID != 'NEG') %>%
