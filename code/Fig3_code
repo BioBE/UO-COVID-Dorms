@@ -14,7 +14,7 @@ library(webshot)
 library(broom)
 library(ggpubr)
 
-clean.data = read.csv(~/data/'fig3_data.csv')
+clean.data = read.csv('~/data/fig3_data.csv')
 
 ## Make the negative samples have a Ct of 40 
 clean.data$Ct[clean.data$Result == "Negative"] <- 40
