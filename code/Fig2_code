@@ -15,7 +15,7 @@ library(scales)
 library(lmerTest)
 library(report)
 
-clean.data = read.csv(~/data/'Fig2_data.csv')
+clean.data = read.csv('~/data/Fig2_data.csv')
 
 ## Fix location names
 clean.data$Location[clean.data$Location == "Bathroom FLoor"] <- "Bathroom Floor"
